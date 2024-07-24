@@ -1,7 +1,7 @@
 /* CSS per distinguere le sezioni */
 
 header {
-  background-color: 2C3E50;
+  background-color: #2C3E50;
   height: 100px;
 }
 
@@ -22,4 +22,14 @@ header {
 
 .contact .container {
   width: 60%;
+  height: 450px;
+}
+
+footer {
+  background-color: #3A546D;
+  height: 300px;
+}
+
+.copyright {
+  background-color: #2C3E50;
 }
