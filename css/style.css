@@ -1,6 +1,11 @@
 /* CSS per distinguere le sezioni */
 
 header {
-  background-color: lightblue;
+  background-color: 2C3E50;
   height: 100px;
+}
+
+.jumbotron {
+  background-color: #1ABC9C;
+  height: 200px;
 }
