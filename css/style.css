@@ -19,3 +19,7 @@ header {
   background-color: #1ABC9C;
   height: 350px;
 }
+
+.contact .container {
+  width: 60%;
+}
