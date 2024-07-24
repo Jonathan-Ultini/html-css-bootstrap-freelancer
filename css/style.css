@@ -1,1 +1,6 @@
 /* CSS per distinguere le sezioni */
+
+header {
+  background-color: lightblue;
+  height: 100px;
+}
