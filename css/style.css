@@ -11,6 +11,37 @@
   /* height: 200px; */
 }
 
+.jumbotron img {
+  max-width: 100%;
+  height: auto;
+}
+
+.jumbotron .img-container {
+  max-width: 300px;
+  /* Regola questa dimensione secondo le tue necessità */
+  margin: 0 auto;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.separator .line {
+  height: 4px;
+  background-color: white;
+  width: 10%;
+  margin: 0 20px;
+  border-radius: 10px;
+}
+
+.separator .star {
+  color: white;
+  font-size: 2rem;
+}
+
 .portfolio {
   background-color: #fff;
   /* height: 500px; */
