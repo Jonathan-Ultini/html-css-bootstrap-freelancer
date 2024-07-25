@@ -135,39 +135,42 @@
     <div class="container">
       <div class="row text-center mb-4">
         <div class="col-12">
-          <h2 class="text-uppercase">Contact Me</h2>
-          <hr>
+          <h2 class="text-uppercase display-5 fw-bold">Contact Me</h2>
+          <div class="separator">
+            <div class="line bg-black"></div>
+            <i class="fas fa-star star text-black"></i>
+            <div class="line bg-black"></div>
+          </div>
         </div>
       </div>
       <div class="row">
         <div class="col-12 col-md-6 offset-md-3">
-          <div class="col col-12 text-center">
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="col col-12">
-            <h3>name</h3>
-            <hr>
-          </div>
-          <div class="col col-12">
-            <h3>email address</h3>
-            <hr>
-          </div>
-          <div class="col col-12">
-            <h3>pone number</h3>
-            <hr>
-          </div>
-          <div class="col col-12">
-            <h3>message</h3>
-
-          </div>
-          <div class="col col-12">
-            <hr>
-            <button class="btn btn-primary">send</button>
-          </div>
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label"></label>
+              <input type="text" class="form-control" id="name" placeholder="Name">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label"></label>
+              <input type="email" class="form-control" id="email" placeholder="Email Address">
+            </div>
+            <div class="mb-3">
+              <label for="phone" class="form-label"></label>
+              <input type="tel" class="form-control" id="phone" placeholder="Phone Number">
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label"></label>
+              <textarea class="form-control" id="message" rows="4" placeholder="Message"></textarea>
+            </div>
+            <div class="text-left">
+              <button type="submit" class="btn btn-success">Send</button>
+            </div>
+          </form>
         </div>
       </div>
     </div>
   </section>
+
 
   <!-- Footer -->
   <footer class="text-white py-4">

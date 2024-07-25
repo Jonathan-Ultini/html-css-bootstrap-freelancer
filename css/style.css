@@ -68,10 +68,18 @@
   margin-right: 8px;
 }
 
-.contact .container {
-  width: 60%;
-  /* height: 450px; */
+.form-control::placeholder {
+  color: black;
+
 }
+
+.form-control {
+  border: none;
+  border-bottom: 1px solid #D9D9D9;
+  border-radius: 0;
+  padding: 0;
+}
+
 
 footer {
   background-color: #3A546D;
